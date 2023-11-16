@@ -1,0 +1,40 @@
+.logo:hover {
+    color: peru !important;
+}
+
+.menu-link:hover {
+    color: steelblue !important;
+}
+
+ul > li.active {
+    font-weight: bold;
+}
+
+li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.list-link:hover {
+    color: blue;
+}
+
+.card-header-left::before {
+    content: url("../design/check2.svg");
+    padding-right: 10px;
+}
+
+.card-header-center::before {
+    content: url("../design/gift-fill.svg");
+    padding-right: 10px;
+}
+
+.card-header-right::before {
+    content: url("../design/compass.svg");
+    padding-right: 10px;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+}
